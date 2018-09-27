@@ -1,5 +1,5 @@
 ### Inleiding
-Deze Dojo gaat over Scratch 3, en als je een webcam hebt (ingebouwd of los) kun je in Scratch 3 aan de slag met [*video sensing*](video_sensing).
+Deze Dojo gaat over Scratch 3, en als je een webcam hebt (ingebouwd of los) kun je in Scratch 3 aan de slag met [*video sensing*](videosensing).
 
 Scratch 3 is de nieuwste versie van Scratch en komt in januari 2019 officieel uit. Op dit moment is er een [_beta_ versie](https://beta.scratch.mit.edu) beschikbaar, dit betekent dat nog niet alles af is en er nog dingen kunnen veranderen in de definitieve versie.
 
