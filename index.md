@@ -1,5 +1,5 @@
 ### Inleiding
-Deze Dojo gaat over Scratch 3, en als je een webcam hebt (ingebouwd of los) kun je in Scratch 3 aan de slag met [*video sensing*](videosensing).
+Deze Dojo gaat over Scratch 3, en als je een webcam hebt (ingebouwd of los) kun je in Scratch 3 aan de slag met [*video sensing*](#videosensing).
 
 Scratch 3 is de nieuwste versie van Scratch en komt in januari 2019 officieel uit. Op dit moment is er een [_beta_ versie](https://beta.scratch.mit.edu) beschikbaar, dit betekent dat nog niet alles af is en er nog dingen kunnen veranderen in de definitieve versie.
 
@@ -17,7 +17,7 @@ Begin met het aanzetten van de webcam. De blokken die je hiervoor nodig hebt moe
 
 Om ervoor te zorgen dat Scratch reageert op de kleur die de webcam ziet moet je deze eerst instellen. Zet eerst de webcam aan in Scratch  Dit doe je door op de kleur van het blok "raak ik kleur" te klikken en daarna op het icoon in de rode cirkel. Je kunt nu een kleur in het beeld van de webcam aanklikken.
 
-![kleur_instellen](images/kleur_instellen.png){:width="200px"}
+![kleur_instellen](images/kleur_instellen.png){:width="300px"}
  
 #### Bouwblokken
 
@@ -25,7 +25,7 @@ Om ervoor te zorgen dat Scratch reageert op de kleur die de webcam ziet moet je 
 
 Dit bouwblok is het makkelijkst te gebruiken als je een losse webcam hebt die je op tafel kunt richten. In dit geval liggen de gekleurde voorwerpen (papiertjes, legoblokjes, M&M's, noem maar op) en beweegt een *sprite* tegen de voorwerpen aan. Je kunt dan programmeren wat er moet gebeuren als de sprite een kleur raakt: hij verandert van uiterlijk, er klinkt een geluid, je poppetje is "af", enzovoorts.
 
-![sprite_raakt_kleur](images/sprite_raakt_kleur.png){:width="200px"}
+![sprite_raakt_kleur](images/sprite_raakt_kleur.png){:width="300px"}
 
 **Kleur beweegt tegen een sprite aan**
 
@@ -57,32 +57,33 @@ In dit geval gaat het er om dat een kleur op een bepaalde plek op het scherm ver
 **Het maken van een vloeiende beweging**
 
 In Scratch kun je bewegen van links naar rechts, en van boven naar onder. De plek van links naar rechts wordt bepaald door de waarde van *x*, en die van boven naar onder door *y*. Deze waarden noem je de *coördinaten*.
+
 ![coördinaten](images/coords.png){:width="300px"}
 
 De makkelijkste manier om dit te doen is door een knop aan een verandering in de waarde van *x* en *y* te verbinden:
-![beweging1](images/beweging1.png){:width="200px"}
+![beweging1](images/beweging1.png){:width="300px"}
 
 Dit kun je ook voor beweging de andere kant op, naar boven en beneden doen. Deze beweging is nogal schokkerig. Je kunt deze beweging op meerdere manieren vloeiender maken. Een manier is de volgende. Als eerste moet je hiervoor de waarde van *x* niet meteen als getal intypen, maar dit doen via een *variabele* die de snelheid van de sprite bepaalt (zie het menu 'variabelen'):
 
-![beweging2](images/beweging2.png){:width="200px"}
+![beweging2](images/beweging2.png){:width="300px"}
 
 De volgende stap is om deze stap in een *herhaal* lus te zetten, daardoor blijft de snelheid veranderen zo lang je de knop ingedrukt houdt:
 
-![beweging4](images/beweging4.png){:width="250px"}
+![beweging4](images/beweging4.png){:width="350px"}
 
 Wat er nu gebeurt is dat de sprite na het loslaten van de knop net zo snel blijft gaan. Je moet dus instellen dat de snelheid omlaag gaat als je de knop *niet* indrukt:
 
-![beweging5](images/beweging5.png){:width="250px"}
+![beweging5](images/beweging5.png){:width="350px"}
 
 Je zult nu zien dat de snelheid na een tijdje onder de 0 gaat en de sprite dus de andere kant op zal gaan bewegen. O dit te voorkomen moet een je een voorwaarde toevoegen dat de snelheid niet onder de 0 mag komen.
 
-![beweging6](images/beweging6.png){:width="250px"}
+![beweging6](images/beweging6.png){:width="350px"}
 
 Beweging naar links kun je op dezelfde manier programmeren, uiteindelijk ziet het er dan zo uit:
 
-![beweging_links_rechts](images/beweging_links_rechts.png){:width="250px"}
+![beweging_links_rechts](images/beweging_links_rechts.png){:width="350px"}
 
 * Springen en stilstaan bij het raken van een platform element
 
-![beweging_boven_onder](images/beweging_boven_onder.png){:width="250px"}
+![beweging_boven_onder](images/beweging_boven_onder.png){:width="350px"}
 
