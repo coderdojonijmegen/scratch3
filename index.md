@@ -83,7 +83,16 @@ Beweging naar links kun je op dezelfde manier programmeren, uiteindelijk ziet he
 
 ![beweging_links_rechts](images/beweging_links_rechts.png){:width="350px"}
 
-* Springen en stilstaan bij het raken van een platform element
+Je kunt de beweging nog verder verbeteren door een maximale snelheid te bepalen en de snelheid alleen te verhogen als die nog niet is bereikt. Je voegt dan een extra voorwaarde toe:
+
+![beweging7](images/beweging7.png){:width="350px"}
+
+Natuurlijk hoort springen (en daarna weer vallen) ook bij een platform spel. Een manier om dit voor elkaar te krijgen zie je in het blok hieronder, waarbij 
+Het blok hieronder een paar dingen doet:
+- als je een onderdeel van het platform raakt is je snelheid in de _y_-richting 0
+- als je op het platform staat en springt gaat je snelheid omhoog
+- als je niet op het platform staat wordt je snelheid _y_-snelheid steeds hoger (je gaat naar beneden dus die wordt steeds meer negatief).
+
 
 ![beweging_boven_onder](images/beweging_boven_onder.png){:width="350px"}
 
