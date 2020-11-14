@@ -4,6 +4,7 @@ date: 2020-08-27T07:29:39+02:00
 draft: false
 toc: true
 headercolor: "teal-background"
+taal: Scratch
 ---
 
 We gaan de slag met Scratch en videosensing.
