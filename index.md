@@ -7,24 +7,25 @@ headercolor: "teal-background"
 onderwerp: Scratch
 ---
 
-We gaan de slag met Scratch en videosensing.
+We gaan aan de slag met Scratch en video sensing.
 
 <!--more--> 
 
-## Inleiding
-Deze Dojo gaat over Scratch 3, en als je een webcam hebt (ingebouwd of los) kun je in Scratch 3 aan de slag met [*video sensing*](#videosensing).
+Je hebt een computer nodig met een webcam (ingebouwd of los).
 
-Scratch 3 is de nieuwste versie van Scratch en komt in januari 2019 officieel uit. Op dit moment is er een [_beta_ versie](https://beta.scratch.mit.edu) beschikbaar, dit betekent dat nog niet alles af is en er nog dingen kunnen veranderen in de definitieve versie.
+Je kunt in Scratch programma's schrijven die reageren wat er gebeurt op wat de webcam "ziet", zoals de kleur van wat 'ie ziet. Daar zijn allerlei spelletjes mee te verzinnen. Hieronder staan wat bouwblokken en ideeën die je kunt gebruiken voor je eigen spel.
 
-**Belangrijk**: het is nog niet mogelijk om _online_ een programma op te slaan, dit moet je op je eigen computer doen. Het is aan te raden dit regelmatig te doen om te zorgen dat je geen werk verliest. Je kunt opgeslagen programma's ook weer uploaden.
-
-Scratch is er in een heleboel talen. De plaatjes hieronder zijn in het Nederlands dus is het handig om dat ook als taal te kiezen.
+<br>
 
 ## Video sensing
 
-Je kunt in Scratch programma's schrijven die reageren wat er gebeurt op wat de webcam "ziet", en dan ook de kleur van wat ie ziet. Hier zijn allerlei spelletjes mee te verzinnen. Hieronder staan wat bouwblokken en ideeën die je kunt gebruiken voor je eigen spel. Sommige zijn meer geschikt voor een ingebouwde webcam en sommige meer voor een losse.
+Ga naar <a href="https://scratch.mit.edu/" target="_blank">https://scratch.mit.edu/</a> en klik op 'Aan de slag'.
 
-Begin met het aanzetten van de webcam. De blokken die je hiervoor nodig hebt moet je eerst toevoegen door linksonder te klikken op de knop "Voeg een uitbreiding toe" en daarna "Video" te kiezen. Scratch zal je nu waarschijnlijk vragen om toestemming om de webcam te gebruiken. Door nu op het blok "zet video aan" te klikken zal je op de achtergrond van Scratch zien wat de webcam ziet. Het is nog een beetje onduidelijk, als je het blok "zet video transparantie" instelt op 0 en er op klikt zie je het beter.
+Begin met het aanzetten van de webcam. De blokken die je hiervoor nodig hebt moet je eerst toevoegen door linksonder te klikken op de knop "Voeg een uitbreiding toe" en daarna "Video" te kiezen. Scratch zal je nu waarschijnlijk vragen om toestemming om de webcam te gebruiken. 
+
+Door nu op het blok "zet video aan" te klikken zal je op de achtergrond van Scratch zien wat de webcam ziet. Het is nog een beetje onduidelijk, als je het blok "zet video transparantie" instelt op 0 en erop klikt zie je het beter.
+
+<br>
 
 ### Kleur instellen
 
@@ -42,7 +43,13 @@ Dit bouwblok is het makkelijkst te gebruiken als je een losse webcam hebt die je
 
 **Kleur beweegt tegen een sprite aan**
 
-In dit geval gaat het er om dat een kleur op een bepaalde plek op het scherm verschijnt en Scratch daarop reageert. Om dat voor elkaar te krijgen doe je eigenlijk hetzelfde als in het vorige voorbeeld - bijvoorbeeld "als deze sprite kleur rood raakt", maar zit de sprite vast op één plek, bijvoorbeeld het linker- of rechterdeel van het scherm. Het kan voor je spelletje handig zijn om deze sprites te verbergen. Dit kun je doen door eerst op een sprite te klikken en daarna op het blok "verberg".
+In dit geval gaat het er om dat een kleur op een bepaalde plek op het scherm verschijnt en Scratch daarop reageert. 
+
+Om dat voor elkaar te krijgen doe je eigenlijk hetzelfde als in het vorige voorbeeld - bijvoorbeeld "als deze sprite kleur rood raakt", maar zit de sprite vast op één plek, bijvoorbeeld het linker- of rechterdeel van het scherm. 
+
+Het kan voor je spelletje handig zijn om deze sprites te verbergen. Dit kun je doen door eerst op een sprite te klikken en daarna op het blok "verberg".
+
+<br>
 
 ### Mogelijke spelletjes
 
@@ -64,6 +71,13 @@ In dit geval gaat het er om dat een kleur op een bepaalde plek op het scherm ver
 - Bepaal dan wat de kleuren moeten doen als je ze raakt (bijvoorbeeld opnieuw beginnen).
 - Vervang dan het getekende platform door voorwerpen die de webcam ziet.
 - Bonus: hieronder vind je een aantal tips om de beweging van de sprite minder schokkerig te maken.
+
+<br>
+
+**Belangrijk**: sla je programma's steeds op zodat je geen werk verliest. Je kunt bovenaan in Scratch klikken op 'Bestand' en dan 'Opslaan op je computer'. Je kunt opgeslagen programma's ook weer uploaden via hetzelfde menu.
+
+<br>
+<br>
 
 ### Platform spel
 
@@ -108,5 +122,11 @@ Het blok hieronder een paar dingen doet:
 
 
 ![beweging_boven_onder](images/beweging_boven_onder.png)
+
+
+
+<br>
+<br>
+<br>
 
 {{< licentie rel="http://creativecommons.org/licenses/by-nc-sa/4.0/">}}
